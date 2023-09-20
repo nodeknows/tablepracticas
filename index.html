@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan's Table Practice</title>
+    <style>
+        table {
+            /* Shorthand for the properties that follow */
+            /* border: solid 1px red; */
+            border-color: red;
+            border-style: solid ;
+            border-width: 5px; 
+        }
+        
+        thead{
+            background-color: darkred;
+        }
+
+        th{
+            padding: 3%;
+            width: 15%;
+        }
+
+        tbody > tr:nth-child(odd) { /* nth-child(index) */
+            background-color: lightcoral;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Menu Items</th>
+                <th>Smell</th>
+                <th>Taste</th>
+                <th>Calories</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1/4 Pounder w/ Cheese</td>
+                <td>Good </td>
+                <td>Amazing</td>
+                <td>520 Cal.</td>
+                <td>$5.29</td>
+            </tr>
+            <tr>
+                <td>Big Mac</td>
+                <td>Good</td>
+                <td>Ok</td>
+                <td>590 Cal.</td>
+                <td>$5.19</td>
+            </tr>
+            <tr>
+                <td>Spicy McCrispy</td>
+                <td>Amazing</td>
+                <td>Unreal</td>
+                <td>530 Cal.</td>
+                <td>$4.99</td>
+            </tr>
+            <tr>
+                <td>Grand McChicken</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>550 Cal.</td>
+                <td>$3.69</td>
+            </tr>
+            <tr>
+                <td>Triple Cheeseburger</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>540 Cal.</td>
+                <td>$4.19</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        All information are from the McDonalds App located in Fresno, CA. Taken at 9:21 AM PST.
+    </p>
+</body>
+</html>
